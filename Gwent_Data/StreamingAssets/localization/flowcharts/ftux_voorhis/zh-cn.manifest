@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2761648058
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 28c02457332fcd125406cc90da16f9bf
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Localization/Flowcharts/ftux_voorhis/zh-cn.csv
+Dependencies: []

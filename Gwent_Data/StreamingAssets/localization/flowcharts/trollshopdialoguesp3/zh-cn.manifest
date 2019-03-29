@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1458108329
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 431d1b0b3b36407c5bf876ba41d9767c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Localization/Flowcharts/TrollShopDialoguesP3/zh-cn.csv
+Dependencies: []

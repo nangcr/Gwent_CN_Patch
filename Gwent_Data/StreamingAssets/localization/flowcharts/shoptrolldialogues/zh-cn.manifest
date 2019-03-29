@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3560505483
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1a39b91ad351b9a7ae22833c716b942e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Localization/Flowcharts/ShopTrollDialogues/zh-cn.csv
+Dependencies: []

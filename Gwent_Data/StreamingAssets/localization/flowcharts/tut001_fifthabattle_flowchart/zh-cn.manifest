@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4209780141
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c85ed0ca66388b9e1c1907d7d600cb9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Localization/Flowcharts/tut001_fifthabattle_flowchart/zh-cn.csv
+Dependencies: []

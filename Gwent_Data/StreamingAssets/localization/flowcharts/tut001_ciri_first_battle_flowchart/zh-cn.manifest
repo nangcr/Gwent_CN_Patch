@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2144344078
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3514d89cc3352c3dee01684e5016dbb4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Localization/Flowcharts/tut001_ciri_first_battle_flowchart/zh-cn.csv
+Dependencies: []

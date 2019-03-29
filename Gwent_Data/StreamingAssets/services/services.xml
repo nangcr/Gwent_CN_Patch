@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Services type="client">
+	<Addresses>
+		<QueueServiceAddress>{prefix}queue{suffix}</QueueServiceAddress>
+		<AccessTokenServiceAddress>https://auth{suffix}</AccessTokenServiceAddress>
+		<GogApiServiceAddress>https://api.gwent.cn</GogApiServiceAddress>
+		<NotificationServiceAddress>https://notifications{suffix}</NotificationServiceAddress>
+		<ProfileServiceAddress>{prefix}profile{suffix}</ProfileServiceAddress>
+		<DeckServiceAddress>{prefix}deck{suffix}</DeckServiceAddress>
+		<MatchMakingServiceAddress>{prefix}matchmaking{suffix}</MatchMakingServiceAddress>
+		<GameLogServiceAddress>{prefix}games-log{suffix}</GameLogServiceAddress>
+		<InventoryServiceAddress>{prefix}inventory{suffix}</InventoryServiceAddress>
+		<ShopServiceAddress>{prefix}shop{suffix}</ShopServiceAddress>
+		<RankServiceAddress>{prefix}rankings{suffix}</RankServiceAddress>
+		<RewardsServiceAddress>{prefix}rewards{suffix}</RewardsServiceAddress>
+		<ConfigServiceAddress>{prefix}config{suffix}</ConfigServiceAddress>
+		<RemoteConfigServiceAddress>https://remote-config.gwent.cn</RemoteConfigServiceAddress>
+		<LiveDataServiceAddress>{prefix}config{suffix}</LiveDataServiceAddress>
+		<NewsServiceAddress>{prefix}config{suffix}</NewsServiceAddress>
+		<QuestServiceAddress>{prefix}quests{suffix}</QuestServiceAddress>
+		<AssetServiceAddress>{prefix}assets{suffix}</AssetServiceAddress>
+		<AchievementServiceAddress>{prefix}achievements{suffix}</AchievementServiceAddress>
+		<InvitationsServiceAddress>{prefix}matchmaking-invitations{suffix}</InvitationsServiceAddress>
+		<ContentSystemServiceAddress>https://content-system.gwent.cn</ContentSystemServiceAddress>
+	</Addresses>
+	
+	<Env type="preprod">
+		<Prefix>https://seawolf-</Prefix>	
+		<Suffix>-preprod.gwent.cn</Suffix>
+		<Addresses>
+			<!-- same url as prod -->
+			<NotificationServiceAddress>https://notifications.gwent.cn</NotificationServiceAddress>
+			<AccessTokenServiceAddress>https://auth.gwent.cn</AccessTokenServiceAddress>
+			<!-- anomaly -->
+			<QuestServiceAddress>https://gwent-quests-preprod.gwent.cn</QuestServiceAddress>
+			<QueueServiceAddress>https://gwent-queue-preprod.gwent.cn</QueueServiceAddress>
+			<InvitationsServiceAddress>https://gwent-matchmaking-invitations-preprod.gwent.cn</InvitationsServiceAddress>
+		</Addresses>
+	</Env>
+
+	<Env type="ptr">
+		<Prefix>https://</Prefix>
+		<Suffix>-gwent-ptr.gwent.cn</Suffix>
+		<Addresses>
+			<!-- same url as prod -->
+			<NotificationServiceAddress>https://notifications.gwent.cn</NotificationServiceAddress>
+			<AccessTokenServiceAddress>https://auth.gwent.cn</AccessTokenServiceAddress>
+		</Addresses>
+	</Env>
+  
+	<Env type="prod">	
+		<Prefix>https://gwent-</Prefix>	
+		<Suffix>.gwent.cn</Suffix>
+		<Addresses>
+		</Addresses>
+	</Env>	
+  
+	<Env type="staging">	
+		<Prefix>http://gwent-</Prefix>	
+		<Suffix>.gog.test</Suffix>
+		<Addresses>
+		</Addresses>
+	</Env>
+  
+	<Env type="dev">	
+		<Prefix>https://seawolf-</Prefix>	
+		<Suffix>-preprod.gwent.cn</Suffix>
+		<Addresses>
+			<!-- same url as prod -->
+			<NotificationServiceAddress>https://notifications.gwent.cn</NotificationServiceAddress>
+			<AccessTokenServiceAddress>https://auth.gwent.cn</AccessTokenServiceAddress>
+			<!-- anomaly -->
+			<QuestServiceAddress>https://gwent-quests-preprod.gwent.cn</QuestServiceAddress>
+		</Addresses>
+	</Env>	
+</Services>

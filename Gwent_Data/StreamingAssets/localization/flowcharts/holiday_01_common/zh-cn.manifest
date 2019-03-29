@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 4024212495
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 38cdf6678603f1b443b0ae8e17836ae2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Localization/Flowcharts/holiday_01_common/zh-cn.csv
+Dependencies: []

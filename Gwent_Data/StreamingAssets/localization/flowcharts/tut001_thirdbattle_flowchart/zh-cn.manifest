@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1472085952
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e81ad188602d1147b9fefd9e0f1e302a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Localization/Flowcharts/tut001_thirdbattle_flowchart/zh-cn.csv
+Dependencies: []

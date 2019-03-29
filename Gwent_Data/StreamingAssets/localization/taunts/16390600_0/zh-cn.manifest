@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3183630789
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c536ad1e0db15366f12e74e1362a300f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Localization/Taunts/16390600_0/zh-cn.csv
+Dependencies: []
